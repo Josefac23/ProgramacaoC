@@ -7,7 +7,7 @@ int main(){
     char cidade1[50] = "São Paulo";
     int populacao1 = 12345678, pontos_turisticos_1 = 10;
     float area1 = 1213.45, pib1 = 456789012.34;
-    float densidade_populacional1 = (float)populacao1/area1; //densidade populacional
+    float densidade_populacional1 = populacao1/area1; //densidade populacional
     float pib_per_capita1 = pib1/populacao1; //pib per capita
 
     
@@ -18,7 +18,7 @@ int main(){
     char cidade2[50] = "Rio de Janeiro";
     int populacao2 = 6789012, pontos_turisticos_2 = 5;
     float area2 = 1182.30, pib2 = 789012345.67;
-    float densidade_populacional2 = (float)populacao2/area2; //densidade populacional
+    float densidade_populacional2 = populacao2/area2; //densidade populacional
     float pib_per_capita2 = pib2/populacao2; //pib per capita
 
     printf("Comparaçao de Cartas (Atributo: População)\n"); //exibindo as informaçoes e o resultado da comparaçao da populaçao
